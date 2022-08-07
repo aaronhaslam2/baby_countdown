@@ -1,0 +1,90 @@
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 99.9999vh;
+    /*background-size: 100% 100vh;*/
+    /* max-height: 92vh; */
+    /* border: 3px;
+    border-style: solid;
+    border-color: white; */
+}
+#timer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+body{
+    height: 100%;
+    background-color: black;
+    color: rgb(139,86,123);
+    margin: 0;
+    background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Cute-spring-flowers-hd-desktop-flowers-desktop-wallpaper-new.jpg) fixed center;
+    background-size:cover;
+}
+
+@media(orientation: landscape){
+    .time{
+        background-color: rgba(246, 131, 128, 0.8);
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 30px;
+        border-radius: 25px;
+    }
+    .label{
+        font-size: 15px;
+        color: gray;
+    }
+    .timeValue{
+        font-size: 50px;
+    }
+    .pageThird{
+        width: 500px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 70px;
+        /* border-style: solid;
+ *         border-color: red; */
+        /* border-width: 3px;
+ *         max-height: 300px;
+ *                 max-width: 600px; */
+    }
+}
+@media(orientation: portrait){
+    .time{
+        background-color: rgba(246, 131, 128, 0.8);
+        width: 13vw;
+        height: 20vw;
+        margin: 5px;
+        text-align: center;
+        line-height: 9vw;
+        font-size: 30px;
+        border-radius: 25px;
+    }
+    .label{
+        font-size: 3vw;
+        color: gray;
+    }
+    .timeValue{
+        font-size: 10vw;
+    }
+    .pageThird{
+        width: 90vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 11vw;
+        /* border-style: solid;
+ *         border-color: red;
+ *                 border-width: 3px; */
+    }    
+}

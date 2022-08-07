@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Countdown</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+		<link rel="stylesheet" href="timerStyle.css">
+		<link rel="icon" type="image/x-icon" href="baby.png">
+		<link rel="manifest" href="manifest.json">
+	</head>
+	<body>
+		<div id="page">
+			<div class="pageThird">Baby Haslam</div>
+			<div id="timer" class="pageThird">
+				<div class="time">
+					<div class="label">Years</div>
+					<div class="timeValue" id="year"></div>
+				</div>
+				<div class="time">
+					<div class="label">Months</div>
+					<div class="timeValue" id="month"></div>
+				</div>
+				<div class="time">
+					<div class="label">Days</div>
+					<div class="timeValue" id="day"></div>
+				</div>
+				<div class="time">
+					<div class="label">Hours</div>
+					<div class="timeValue" id="hour"></div>
+				</div>
+				<div class="time">
+					<div class="label">Minutes</div>
+					<div class="timeValue" id="minute"></div>
+				</div>
+				<div class="time">
+					<div class="label">Seconds</div>
+					<div class="timeValue" id="second"></div>
+				</div>
+			</div>
+			<div class="pageThird">Coming June 22nd...</div>
+		</div>
+		<script src="client.js"></script>
+	</body>
+</html>
