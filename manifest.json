@@ -1,6 +1,7 @@
 {
   "short_name": "Baby Countdown",
   "name": "Baby Haslam Countdown Timer",
+  "description": "A countdown timer for baby",
   "icons": [
     {
       "src": "baby.png",
@@ -10,6 +11,7 @@
   ],
   "start_url": "index.html",
   "background_color": "black",
+  "theme_color": "black",
   "display": "fullscreen",
   "orientation": "portrait"
 }
