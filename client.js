@@ -6,7 +6,7 @@ var hours =  document.getElementById('hour');
 var minutes =  document.getElementById('minute');
 var seconds =  document.getElementById('second');
 
-let babyBirthDay = new Date("June 24, 2022 18:09:00");
+let babyBirthDay = new Date("Oct 3, 2024 00:00:00 UTC");
 
 function serverClock(){
 	let x = setInterval(function(){
@@ -18,7 +18,7 @@ function update(){
 	var currentTime = new Date();
 	var time = GetDate(babyBirthDay, currentTime);
 	// console.log(time);
-	years.innerHTML = time.Years;
+	// years.innerHTML = time.Years;
 	months.innerHTML = time.Months;
 	days.innerHTML = time.Days;
 	hours.innerHTML = time.Hours;

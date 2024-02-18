@@ -15,20 +15,23 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    /* border: 3px;
+    border-style: solid;
+    border-color: blue; */
 }
 
 body{
     height: 100%;
     background-color: black;
-    color: rgb(139,86,123);
+    color: rgb(109, 109, 109);
     margin: 0;
-    background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Cute-spring-flowers-hd-desktop-flowers-desktop-wallpaper-new.jpg) fixed center;
+    background: black;
     background-size:cover;
 }
 
 @media(orientation: landscape){
     .time{
-        background-color: rgba(246, 131, 128, 0.8);
+        background-color: rgba(50, 93, 60, 0.8);
         width: 100px;
         height: 100px;
         margin: 5px;
@@ -60,12 +63,12 @@ body{
 }
 @media(orientation: portrait){
     .time{
-        background-color: rgba(246, 131, 128, 0.8);
-        width: 13vw;
-        height: 20vw;
+        background-color: rgba(50, 93, 60, 0.8);
+        width: 100px;
+        height: 100px;
         margin: 5px;
         text-align: center;
-        line-height: 9vw;
+        line-height: 45px;
         font-size: 30px;
         border-radius: 25px;
     }
@@ -83,8 +86,9 @@ body{
         padding-left: 0px;
         padding-right: 0px;
         font-size: 11vw;
+        align-content: center;
         /* border-style: solid;
- *         border-color: red;
- *                 border-width: 3px; */
+        border-color: red;
+        border-width: 3px; */
     }    
 }
